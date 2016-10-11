@@ -4,15 +4,15 @@ package ru.PhoneBook;
  * Created by oleg on 11.10.16.
  */
 public class Phones {
-    private int id;
+    private String id;
     private String num;
 
-    public Phones(int id, String num) {
+    public Phones(String id, String num) {
         this.id = id;
         this.num = num;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
@@ -27,14 +27,14 @@ public class Phones {
 
         Phones phones = (Phones) o;
 
-        if (id != phones.id) return false;
+        if (id != null ? !id.equals(phones.id) : phones.id != null) return false;
         return num != null ? num.equals(phones.num) : phones.num == null;
 
     }
 
     @Override
     public int hashCode() {
-        int result = id;
+        int result = id != null ? id.hashCode() : 0;
         result = 31 * result + (num != null ? num.hashCode() : 0);
         return result;
     }

@@ -1,30 +1,30 @@
 package ru.PhoneBook;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Created by oleg on 11.10.16.
  */
 public class PhoneBookRunner {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InputMismatchException {
+
+        Scanner reader = new Scanner(System.in);
+
         List<Phones> phones = new ArrayList<Phones>();
-        phones.add(new Phones(1,"+79155324567"));
-        phones.add(new Phones(1,"+79207432323"));
-        phones.add(new Phones(2,"+79049583729"));
-        phones.add(new Phones(3,"+79804534580"));
-        phones.add(new Phones(4,"+79151234536"));
-        phones.add(new Phones(5,"+79165675654"));
-        phones.add(new Phones(5,"+79564565337"));
-        phones.add(new Phones(6,"+79155324567"));
-        phones.add(new Phones(7,"+79207432323"));
-        phones.add(new Phones(8,"+79049583729"));
-        phones.add(new Phones(8,"+79804534580"));
-        phones.add(new Phones(9,"+79151234536"));
-        phones.add(new Phones(10,"+79165675654"));
-        phones.add(new Phones(10,"+79564565337"));
+        phones.add(new Phones("1","+79155324567"));
+        phones.add(new Phones("1","+79207432323"));
+        phones.add(new Phones("2","+79049583729"));
+        phones.add(new Phones("3","+79804534580"));
+        phones.add(new Phones("4","+79151234536"));
+        phones.add(new Phones("5","+79165675654"));
+        phones.add(new Phones("5","+79564565337"));
+        phones.add(new Phones("6","+79155324567"));
+        phones.add(new Phones("7","+79207432323"));
+        phones.add(new Phones("8","+79049583729"));
+        phones.add(new Phones("8","+79804534580"));
+        phones.add(new Phones("9","+79151234536"));
+        phones.add(new Phones("10","+79165675654"));
+        phones.add(new Phones("10","+79564565337"));
 
 
         Map<String, User> users = new HashMap<String, User>();
@@ -39,14 +39,22 @@ public class PhoneBookRunner {
         users.put("9", new User("Николаев И.Е."));
         users.put("10", new User("Романов Н.А."));
 
+        String exit = "н";
+            while (!exit.equals("д")) {
+                System.out.println("Введите ФИО (например Иванов И.И.)");
+                String fio = reader.nextLine();
 
-
-
-
-        for (Phones phone : phones) {
-            if (phone.getId() == 5) {
-                System.out.println(phone.getNum());
+                for (Map.Entry<String, User> user : users.entrySet()) {
+                    if (user.getValue().getName().equals(fio)) {
+                        for (Phones phone : phones) {
+                            if (phone.getId().equals(user.getKey())) {
+                                System.out.println(phone.getNum());
+                            }
+                        }
+                    }
+                }
+                System.out.println("Выход? (д/н)");
+                exit = reader.nextLine();
             }
-        }
     }
 }
