@@ -3,11 +3,11 @@ package ru.PhoneBook;
 /**
  * Created by oleg on 11.10.16.
  */
-public class Phones {
+public class Phone {
     private String id;
     private String num;
 
-    public Phones(String id, String num) {
+    public Phone(String id, String num) {
         this.id = id;
         this.num = num;
     }
@@ -25,10 +25,10 @@ public class Phones {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        Phones phones = (Phones) o;
+        Phone phone = (Phone) o;
 
-        if (id != null ? !id.equals(phones.id) : phones.id != null) return false;
-        return num != null ? num.equals(phones.num) : phones.num == null;
+        if (id != null ? !id.equals(phone.id) : phone.id != null) return false;
+        return num != null ? num.equals(phone.num) : phone.num == null;
 
     }
 

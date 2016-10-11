@@ -5,9 +5,9 @@ import java.util.Scanner;
 /**
  * Created by oleg on 10.10.16.
  */
-public class ip_range {
+public class IpRange {
     String result;
-    public static void main(String... args) {
+    public void showRange() {
         int lastNumOfIpStart = 0; // последнее число начального адреса
         int lastNumOfIpEnd = 0;   // последнее число конечного адреса
 
