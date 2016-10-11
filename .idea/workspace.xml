@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e56d740-47df-4965-a6ae-f21be4f6a5bb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/OTRApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ru/IP/ipRangeTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ru/PhoneBook/PhoneBookRunnerTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/ru/IP/ip_rangeTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/PhoneBook/Phones.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ru/IP/ip_range.java" afterPath="$PROJECT_DIR$/src/main/java/ru/IP/IpRange.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ru/PhoneBook/Phones.java" afterPath="$PROJECT_DIR$/src/main/java/ru/PhoneBook/Phone.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/PhoneBook/PhoneBookRunner.class" afterPath="$PROJECT_DIR$/target/classes/ru/PhoneBook/PhoneBookRunner.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ru/IP/IpRangeTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/ru/IP/ipRangeTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/IP/ip_range.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/ru/IP/ip_rangeTest.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/OTRApplication.class" afterPath="$PROJECT_DIR$/target/classes/ru/OTRApplication.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/PhoneBook/PhoneBookRunner.java" afterPath="$PROJECT_DIR$/src/main/java/ru/PhoneBook/PhoneBookRunner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/IP/IpRange.java" afterPath="$PROJECT_DIR$/src/main/java/ru/IP/IpRange.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/OTRApplication.java" afterPath="$PROJECT_DIR$/src/main/java/ru/OTRApplication.java" />
     </list>
     <ignored path="OTR-Test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,83 +33,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="782">
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/PhoneBook/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding>
-                <element signature="e#138#139#0" expanded="true" />
-                <element signature="e#170#171#0" expanded="true" />
-                <element signature="e#201#202#0" expanded="true" />
-                <element signature="e#228#229#0" expanded="true" />
-                <element signature="e#540#541#0" expanded="true" />
-                <element signature="e#597#598#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Phone.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/PhoneBook/Phone.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="30" column="58" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="58" />
-              <folding>
-                <element signature="e#253#254#0" expanded="true" />
-                <element signature="e#278#279#0" expanded="true" />
-                <element signature="e#308#309#0" expanded="true" />
-                <element signature="e#334#335#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PhoneBookRunner.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/PhoneBook/PhoneBookRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-684">
-              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-              <folding>
-                <element signature="e#1402#1416#0" expanded="true" />
-                <element signature="e#2043#2050#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PhoneBookRunnerTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/PhoneBook/PhoneBookRunnerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="31" column="62" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#328#342#0" expanded="true" />
-                <element signature="e#444#451#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="IpRange.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/IP/IpRange.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-              <folding />
+            <state relative-caret-position="433">
+              <caret line="58" column="9" selection-start-line="55" selection-start-column="8" selection-end-line="58" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OTRApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/OTRApplication.java">
+      <file leaf-file-name="IpRangeTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/IP/IpRangeTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
-              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -156,8 +95,10 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/PhoneBook/UserException.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/PhoneBook/PhoneBookRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/PhoneBook/PhoneBookRunnerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/IP/ipRangeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/OTRApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/IP/IpRange.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/IP/IpRangeTest.java" />
       </list>
     </option>
   </component>
@@ -287,10 +228,6 @@
               <option name="myItemId" value="ru" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -385,35 +322,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="ru.PhoneBook" />
       <recent name="ru.IP" />
+      <recent name="ru.PhoneBook" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
       <recent name="ru.IP.ip_range" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OTRApplication">
-    <configuration default="false" name="IpRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ru.IP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="ru.IP.IpRange" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="OTR-Test" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.IpRangeTest">
     <configuration default="false" name="ipRangeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -504,6 +421,32 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="OTR-Test" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="IpRangeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ru.IP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="OTR-Test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ru.IP" />
+      <option name="MAIN_CLASS_NAME" value="ru.IP.IpRangeTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -901,19 +844,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.IpRange" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ipRangeTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.PhoneBookRunner" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PhoneBookRunnerTest.findPhoneByName" />
-      <item index="4" class="java.lang.String" itemvalue="Application.OTRApplication" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ipRangeTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.PhoneBookRunner" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PhoneBookRunnerTest.findPhoneByName" />
+      <item index="3" class="java.lang.String" itemvalue="Application.OTRApplication" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.IpRangeTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.OTRApplication" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PhoneBookRunnerTest.findPhoneByName" />
-        <item index="2" class="java.lang.String" itemvalue="Application.PhoneBookRunner" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ipRangeTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.IpRange" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.IpRangeTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.OTRApplication" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PhoneBookRunnerTest.findPhoneByName" />
+        <item index="3" class="java.lang.String" itemvalue="Application.PhoneBookRunner" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ipRangeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -927,7 +870,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1476095856317</updated>
-      <workItem from="1476095861177" duration="35921000" />
+      <workItem from="1476095861177" duration="39841000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1476096963415</created>
@@ -947,6 +890,18 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="IpRangeTest - 2016.10.11 at 21h 51m 38s.xml">
+      <configuration name="IpRangeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IpRangeTest - 2016.10.11 at 21h 52m 09s.xml">
+      <configuration name="IpRangeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IpRangeTest - 2016.10.11 at 21h 52m 27s.xml">
+      <configuration name="IpRangeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IpRangeTest - 2016.10.11 at 21h 55m 44s.xml">
+      <configuration name="IpRangeTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="PhoneBookRunnerTest_findPhoneByName - 2016.10.11 at 20h 40m 51s.xml">
       <configuration name="PhoneBookRunnerTest.findPhoneByName" configurationId="JUnit" />
     </history-entry>
@@ -959,9 +914,6 @@
     <history-entry file="PhoneBookRunnerTest_findPhoneByName - 2016.10.11 at 20h 43m 50s.xml">
       <configuration name="PhoneBookRunnerTest.findPhoneByName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ip_rangeTest - 2016.10.10 at 21h 14m 12s.xml">
-      <configuration name="ip_rangeTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ip_rangeTest - 2016.10.10 at 21h 17m 12s.xml">
       <configuration name="ip_rangeTest" configurationId="JUnit" />
     </history-entry>
@@ -970,7 +922,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35921000" />
+    <option name="totallyTimeSpent" value="39841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="21" width="1323" height="747" extended-state="6" />
@@ -984,7 +936,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943013" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771823" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32771823" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -995,7 +947,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39969373" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39969373" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1012,7 +964,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="firststart" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1060,14 +1014,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/IP/ipRangeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/phoneBook/bookRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -1092,21 +1038,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/PhoneBook/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="e#138#139#0" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#597#598#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/PhoneBook/UserException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1115,14 +1046,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/PhoneBook/PhoneBookRunnerTest.java">
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/net/InetAddress.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="31" column="62" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
+        <state relative-caret-position="208">
+          <caret line="187" column="18" selection-start-line="187" selection-start-column="18" selection-end-line="187" selection-end-column="18" />
+          <folding>
+            <element signature="e#5662#5663#0" expanded="true" />
+            <element signature="e#5689#5690#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/IP/ipRangeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/nio/ByteBuffer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/OTRApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#328#342#0" expanded="true" />
-            <element signature="e#444#451#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/PhoneBook/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="e#138#139#0" expanded="false" />
+            <element signature="e#170#171#0" expanded="false" />
+            <element signature="e#201#202#0" expanded="false" />
+            <element signature="e#228#229#0" expanded="false" />
+            <element signature="e#540#541#0" expanded="false" />
+            <element signature="e#597#598#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1132,18 +1103,18 @@
         <state relative-caret-position="319">
           <caret line="30" column="58" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="58" />
           <folding>
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="false" />
+            <element signature="e#278#279#0" expanded="false" />
+            <element signature="e#308#309#0" expanded="false" />
+            <element signature="e#334#335#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/PhoneBook/PhoneBookRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-684">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        <state relative-caret-position="121">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="e#1402#1416#0" expanded="true" />
             <element signature="e#2043#2050#0" expanded="true" />
@@ -1151,21 +1122,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/OTRApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/PhoneBook/PhoneBookRunnerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/IP/IpRangeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/IP/IpRange.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-          <folding />
+        <state relative-caret-position="433">
+          <caret line="58" column="9" selection-start-line="55" selection-start-column="8" selection-end-line="58" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

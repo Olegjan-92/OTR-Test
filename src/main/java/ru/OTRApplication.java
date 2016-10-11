@@ -3,6 +3,7 @@ package ru;
 import ru.IP.IpRange;
 import ru.PhoneBook.PhoneBookRunner;
 
+import java.net.UnknownHostException;
 import java.util.ArrayList;
 
 /**
@@ -10,11 +11,11 @@ import java.util.ArrayList;
  */
 public class OTRApplication {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws UnknownHostException {
         PhoneBookRunner phoneBookRunner = new PhoneBookRunner();
-        phoneBookRunner.runEx2();
+        //phoneBookRunner.runEx2();
 
         IpRange ipRange = new IpRange();
-        ipRange.showRange();
+        ipRange.showRangeFull();
     }
 }
