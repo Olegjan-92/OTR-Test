@@ -6,7 +6,8 @@ import java.util.Scanner;
  * Created by oleg on 10.10.16.
  */
 public class ip_range {
-    public static void main(String[] args) {
+    String result;
+    public static void main(String... args) {
         int lastNumOfIpStart = 0; // последнее число начального адреса
         int lastNumOfIpEnd = 0;   // последнее число конечного адреса
 
@@ -26,9 +27,10 @@ public class ip_range {
             System.err.println("Неверный формат строки");                               //
         }
 
-        for (int i = lastNumOfIpStart+1; i<lastNumOfIpEnd; i++){                              
-            System.out.printf("%s.%s.%s.%s",NumOfIpStart[0],NumOfIpStart[1],NumOfIpStart[2],i);
-            System.out.println();
+        for (int i = lastNumOfIpStart+1; i<lastNumOfIpEnd; i++){
+            String result = NumOfIpStart[0] + "." + NumOfIpStart[1] + "." + NumOfIpStart[2] + "." + i;
+            //System.out.printf("%s.%s.%s.%s",NumOfIpStart[0],NumOfIpStart[1],NumOfIpStart[2],i);
+            System.out.println(result);
         }
     }
 }
