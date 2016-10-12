@@ -20,15 +20,25 @@ public class PhoneBookRunnerTest {
         HashMap<String, User> users = new HashMap<String, User>();
         users.put("1", new User("Иванов И.И."));
 
-
         ArrayList<Phone> phones = new ArrayList<Phone>();
         phones.add(new Phone("1","+79155324567"));
         phones.add(new Phone("1","+79207432323"));
 
         PhoneBookRunner phoneBookRunner = new PhoneBookRunner();
         String phone = phoneBookRunner.findPhoneByName(phones, users, "Иванов И.И.");
-        String failPhone = phoneBookRunner.findPhoneByName(phones, users, "");
         assertEquals(phone, "+79155324567\n+79207432323\n");
+    }
+    @Test
+    public void failPhone() throws Exception{
+        HashMap<String, User> users = new HashMap<String, User>();
+        users.put("1", new User("Иванов И.И."));
+
+        ArrayList<Phone> phones = new ArrayList<Phone>();
+        phones.add(new Phone("1","+79155324567"));
+        phones.add(new Phone("1","+79207432323"));
+
+        PhoneBookRunner phoneBookRunner = new PhoneBookRunner();
+        String failPhone = phoneBookRunner.findPhoneByName(phones, users, " ");
         assertEquals(failPhone, "Такого значения не существует");
     }
 

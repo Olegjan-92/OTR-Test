@@ -10,36 +10,6 @@ import java.util.Scanner;
  */
 public class IpRange {
 
-//    public void showRange() throws UnknownHostException {
-
-//        int lastNumOfIpStart = 0; // последнее число начального адреса
-//        int lastNumOfIpEnd = 0;   // последнее число конечного адреса
-//
-//        Scanner scanner = new Scanner(System.in);           //
-//        System.out.println("Введите начальный ip адрес:");  //
-//        String ipStart= scanner.nextLine();                 // Ввод двух IP-адресов
-//        System.out.println("Введите конечный ip адрес:");   //
-//        String ipEnd= scanner.next();                       //
-//
-//        String[] NumOfIpStart = ipStart.split("\\.");  //разделение на подмассывы
-//        String[] NumOfIpEnd = ipEnd.split("\\.");      //
-//
-//        try {                                                                           //
-//            lastNumOfIpStart = Integer.valueOf(NumOfIpStart[NumOfIpStart.length-1]);    //
-//            lastNumOfIpEnd = Integer.valueOf(NumOfIpEnd[NumOfIpEnd.length-1]);          //перевод в int последних чисел адресов
-//        }catch (NumberFormatException e){                                               //
-//            System.err.println("Неверный формат строки");                               //
-//        }
-//
-//        for (int i = lastNumOfIpStart+1; i<lastNumOfIpEnd; i++){
-//            String result = NumOfIpStart[0] + "." + NumOfIpStart[1] + "." + NumOfIpStart[2] + "." + i;
-//            //System.out.printf("%s.%s.%s.%s",NumOfIpStart[0],NumOfIpStart[1],NumOfIpStart[2],i);
-//            System.out.println(result);
-//        }
-//    }
-
-
-
     public void showRangeFull() throws UnknownHostException {
         Scanner scanner = new Scanner(System.in);           //
         System.out.println("Введите начальный ip адрес:");  //
@@ -50,20 +20,14 @@ public class IpRange {
         Long numOfIpStart = ipToLong(ipStart);
         Long numOfIpEnd = ipToLong(ipEnd);
 
-//        System.out.println(numOfIpEnd);
-//        System.out.println(numOfIpStart);
-
-        if(numOfIpEnd < numOfIpStart) {
-            System.out.println("Неверный диапазон адресов!");
-            return;
-        }
-
         String ips = getIpRange(numOfIpStart, numOfIpEnd);
         System.out.println(ips);
-
     }
 
     protected String getIpRange(Long numOfIpStart, Long numOfIpEnd) throws UnknownHostException {
+        if (numOfIpEnd < numOfIpStart){
+            return "Неверный диапазон адресов!";
+        }
         StringBuilder builder = new StringBuilder();
         while (numOfIpStart < numOfIpEnd - 1){
             numOfIpStart++;
